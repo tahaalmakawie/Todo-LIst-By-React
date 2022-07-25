@@ -21,6 +21,7 @@
     margin-bottom: 10px;
 }
 
+
 .header h1 {
     color: #fff;
     text-align: center;
@@ -82,7 +83,7 @@
     text-decoration-style: solid;
     text-decoration-line: line-through;
     text-decoration-color: #ff6c6c;
-    opacity: 0,6;
+    opacity: 0,3;
 }
 .list{
     width: 220px;
@@ -96,4 +97,28 @@
 input:focus,
 button:focus{
     outline: none;
+}
+@media screen and (max-width:650px) {
+    .app-wrapper{
+        max-width: 150px;
+        min-height: 80vw;
+    }
+    .list{
+        width: 80px;
+        padding-left:4px;
+        padding-right: 0;
+    }
+    .button-add{
+
+    }
+
+    .clm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .task-input{
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
 }
